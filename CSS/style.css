@@ -1,0 +1,163 @@
+body {
+    background-color: hotpink;
+    margin: 0;
+}
+
+
+.dice-1 {
+    width: 100px;
+    height: 100px;
+    background: rgb(240, 236, 236);
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dot {
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.dot-dice-1 {
+    grid-area: 3/3;
+}
+
+.dice-2 {
+    width: 100px;
+    height: 100px;
+    background: rgb(240, 236, 236);
+    margin: 20px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dot-dice-2-1 {
+    grid-area: 2/2;
+}
+
+.dot-dice-2-2 {
+    grid-area: 4/4;
+}
+
+
+.dice-3 {
+    width: 100px;
+    height: 100px;
+    background: rgb(240, 236, 236);
+    margin: 20px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dot-dice-3-1 {
+    grid-area: 2/2;
+}
+
+.dot-dice-3-2 {
+    grid-area: 3/3;
+}
+
+.dot-dice-3-3 {
+    grid-area: 4/4;
+}
+
+.dice-4 {
+    width: 100px;
+    height: 100px;
+    background: rgb(240, 236, 236);
+    margin: 20px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dot-dice-4-1 {
+    grid-area: 2/2;
+}
+
+.dot-dice-4-2 {
+    grid-area: 2/4;
+}
+
+.dot-dice-4-3 {
+    grid-area: 4/2;
+}
+
+.dot-dice-4-4 {
+    grid-area: 4/4;
+}
+
+.dice-5 {
+    width: 100px;
+    height: 100px;
+    background: rgb(240, 236, 236);
+    margin: 20px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dot-dice-5-1 {
+    grid-area: 3/3;
+}
+
+.dot-dice-5-2 {
+    grid-area: 2/2;
+}
+
+.dot-dice-5-3 {
+    grid-area: 4/4;
+}
+
+.dot-dice-5-4 {
+    grid-area: 4/2;
+}
+
+.dot-dice-5-5 {
+    grid-area: 2/4;
+}
+
+
+.dice-6 {
+    width: 100px;
+    height: 100px;
+    background: rgb(240, 236, 236);
+    margin: 20px;
+    display: grid;
+    row-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.dot-dice-6-1 {
+    grid-area: 2/2;
+}
+
+.dot-dice-6-2 {
+    grid-area: 3/2;
+}
+
+.dot-dice-6-3 {
+    grid-area: 4/2;
+}
+
+.dot-dice-6-4 {
+    grid-area: 2/4;
+}
+
+.dot-dice-6-5 {
+    grid-area: 3/4;
+}
+
+.dot-dice-6-6 {
+    grid-area: 4/4;
+}
